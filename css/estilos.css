@@ -1,0 +1,104 @@
+.principal
+{
+    background-color: yellow;
+    padding: 5px;
+    display: grid;
+    grid-template-areas: "titulo titulo titulo titulo titulo titulo titulo titulo titulo titulo titulo titulo titulo titulo"
+                         "titulo titulo titulo titulo titulo titulo titulo titulo titulo titulo titulo titulo titulo titulo"
+                         "menu menu menu menu menu menu menu menu menu menu menu menu menu menu"
+                         "imag1 imag1 imag2 imag2 video video video video video video caja caja uno uno"
+                         "imag1 imag1 imag2 imag2 video video video video video video caja caja dos tres"
+                         "imag1 imag1 imag2 imag2 video video video video video video caja caja dos tres"
+                         "imag1 imag1 imag2 imag2 video video video video video video caja caja dos tres"
+                         "imag1 imag1 imag2 imag2 video video video video video video caja caja dos tres"
+                         "imag3 imag3 imag4 imag4 video video video video video video caja caja dos cuatro"
+                         "imag3 imag3 imag4 imag4 video video video video video video caja caja dos cuatro"
+                         "imag3 imag3 imag4 imag4 video video video video video video caja caja dos cuatro"
+                         "imag3 imag3 imag4 imag4 video video video video video video caja caja dos cuatro"
+                         "imag3 imag3 imag4 imag4 video video video video video video caja caja dos cinco"
+                         "imag3 imag3 imag4 imag4 video video video video video video caja caja dos cinco"
+                         "imag3 imag3 imag4 imag4 video video video video video video caja caja dos cinco"
+                         "imag3 imag3 imag4 imag4 video video video video video video caja caja dos cinco"
+                         "publi publi publi publi publi publi publi publi2 publi2 publi2 publi2 publi2 publi2 publi2"
+                         "pie pie pie pie pie pie pie pie pie pie pie pie pie pie";
+}
+.principal .titulo{
+    background-color: rgb(244, 50, 254);
+    margin: 5px;
+    grid-area: titulo;
+}
+.principal .menu{
+    background-color: rgb(43, 73, 245);
+    margin: 5px;
+    grid-area: menu;
+}
+.principal .imag1{
+    background-color: rgb(49, 186, 88);
+    margin: 5px;
+    grid-area: imag1;
+}
+.principal .imag2{
+    background-color: rgb(49, 186, 88);
+    margin: 5px;
+    grid-area: imag2;
+}
+.principal .imag3{
+    background-color: rgb(49, 186, 88);
+    margin: 5px;
+    grid-area: imag3;
+}
+.principal .imag4{
+    background-color: rgb(49, 186, 88);
+    margin: 5px;
+    grid-area: imag4;
+}
+.principal .video{
+    background-color: rgb(21, 228, 45);
+    margin: 5px;
+    grid-area: video;
+}
+.principal .caja{
+    background-color: rgb(237, 110, 26);
+    margin: 5px;
+    grid-area: caja;
+}
+.principal .uno{
+    background-color: rgb(237, 110, 26);
+    margin: 5px;
+    grid-area: uno;
+}
+.principal .dos{
+    background-color:rgb(237, 110, 26);
+    margin: 5px;
+    grid-area: dos;
+}
+.principal .tres{
+    background-color:rgb(237, 110, 26);
+    margin: 5px;
+    grid-area: tres;
+}
+.principal .cuatro{
+    background-color: rgb(237, 110, 26);
+    margin: 5px;
+    grid-area: cuatro;
+}
+.principal .cinco{
+    background-color: rgb(237, 110, 26);
+    margin: 5px;
+    grid-area: cinco;
+}
+.principal .publi{
+    background-color: rgb(255, 127, 217);
+    margin: 5px;
+    grid-area: publi;
+}
+.principal .publi2{
+    background-color: rgb(255, 127, 217);
+    margin: 5px;
+    grid-area: publi2;
+}
+.principal .pie{
+    background-color: rgb(39, 122, 46);
+    margin: 5px;
+    grid-area: pie;
+}
